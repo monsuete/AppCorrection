@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+  margin: 0;
+}
+
+.cima {
+  display: flex;
+  flex: 0 85px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.CorpoHome {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex: 5;
+}
+.logoBotao{
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  
+}
+
+.imgHome{
+  height: 150px;
+  width: 350px;
+} 
+ 
+.Log {
+  display: flex;
+  flex-direction: column;
+  flex: 2; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.bnt {
+  flex: 1;
+  
+}
+
+.Aside {
+  margin-top: 20px;
+  flex: 0 95%;
+  height: 100px;  
+}

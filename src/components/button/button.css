@@ -1,0 +1,65 @@
+.btnGeral{
+margin-top: 30px;
+}
+
+.tipoA{
+    
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #b7d0e1;
+    border: solid #194569 1px ; 
+    text-align: center;
+    color: #194569;
+    margin: 10px;
+    
+  } 
+  
+  .tipoA:hover{
+    background-color: white;
+    border-color: #006494;
+    color: black;
+    font-style: inherit;
+    
+  }
+
+  .tipoB{
+  
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #b7d0e1;
+    border: solid #194569 1px ;
+    text-align: center;
+    color: #194569;
+    margin: 10px;
+   
+    
+  } 
+  
+  .tipoB:hover{
+    background-color: white;
+    border-color: #006494;
+    color: black;
+    font-style: inherit;
+  }
+
+  .tipoC{
+
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #b7d0e1;
+    border: solid #194569 1px ;
+    text-align: center;
+    color: #194569;
+    margin: 10px;
+  } 
+  
+  .tipoC:hover{
+    background-color: white;
+    border-color: #006494;
+    color: black;
+    font-style: inherit;
+  }
+ 

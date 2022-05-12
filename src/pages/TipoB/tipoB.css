@@ -1,0 +1,87 @@
+.AppTB {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+  margin: 0;
+}
+
+.cimaTB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: white;
+  gap: 10px;
+}
+.imgTB{
+  margin-top: 10px;
+  height: 60px;
+}
+
+.logoTB{
+  display: flex;
+  background-color: white;
+  margin-right: 10px;
+  height: 100px;
+  flex: 0 10%;
+  margin: 10px;
+  justify-content: center;
+     
+}
+
+.TopoTB {
+  flex: 1;
+  height: 100px;
+  margin-right: 20px;
+  
+}
+
+.CorpoTB {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /* background-color: #e8f1f2; */
+  flex: 5;
+}
+
+.NavTB {
+  background-color: #194569;
+  flex: 0 10%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+.PrincipalTB {
+  display: flex;
+  background-color: white;
+  flex: 1;
+  align-items: center;
+  height: 100%; 
+  border-radius: 10px; 
+  margin-right: 10px;
+  gap: 10px;
+  
+}
+.UploadTB{
+  background-color: #e8f1f2;
+  flex: 1;
+  margin-left: 10px;
+  height: 95%;
+  border-radius: 20px;
+  text-align: center;
+}
+.ResultadoTB{
+  background-color: #e8f1f2;
+  flex: 5;
+  margin-right: 20px;
+  height: 95%;
+  border-radius: 20px;
+  text-align: center;
+}
+

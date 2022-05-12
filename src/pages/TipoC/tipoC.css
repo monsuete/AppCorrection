@@ -1,0 +1,87 @@
+.AppTC {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+  margin: 0;
+}
+
+.cimaTC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: white;
+  gap: 10px;
+}
+.imgTC{
+  margin-top: 10px;
+  height: 60px;
+}
+
+.logoTC{
+  display: flex;
+  background-color: white;
+  margin-right: 10px;
+  height: 100px;
+  flex: 0 10%;
+  margin: 10px;
+  justify-content: center;
+     
+}
+
+.TopoTC {
+  flex: 1;
+  height: 100px;
+  margin-right: 20px;
+  
+}
+
+.CorpoTC {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /* background-color: #e8f1f2; */
+  flex: 5;
+}
+
+.NavTC {
+  background-color: #194569;
+  flex: 0 10%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+.PrincipalTC {
+  display: flex;
+  background-color: white;
+  flex: 1;
+  align-items: center;
+  height: 100%; 
+  border-radius: 10px; 
+  margin-right: 10px;
+  gap: 10px;
+  
+}
+.UploadTC{
+  background-color: #e8f1f2;
+  flex: 1;
+  margin-left: 10px;
+  height: 95%;
+  border-radius: 20px;
+  text-align: center;
+}
+.ResultadoTC{
+  background-color: #e8f1f2;
+  flex: 5;
+  margin-right: 20px;
+  height: 95%;
+  border-radius: 20px;
+  text-align: center;
+}
+

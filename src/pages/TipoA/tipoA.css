@@ -1,0 +1,124 @@
+.AppTA {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .cimaTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: white;
+    gap: 10px;
+  }
+  .imgTA{
+    margin-top: 10px;
+    height: 60px;
+  }
+
+  .logoTA{
+    display: flex;
+    background-color: white;
+    margin-right: 10px;
+    height: 100px;
+    flex: 0 10%;
+    margin: 10px;
+    justify-content: center;
+       
+  }
+
+  .TopoTA {
+    flex: 1;
+    height: 100px;
+    margin-right: 20px;
+    
+  }
+  
+  .CorpoTA {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* background-color: #e8f1f2; */
+    flex: 5;
+  }
+  
+  .NavTA {
+    background-color: #194569;
+    flex: 0 10%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+  }
+
+  .PrincipalTA {
+    display: flex;
+    background-color: white;
+    flex: 1;
+    align-items: center;
+    height: 100%; 
+    border-radius: 10px; 
+    margin-right: 10px;
+    gap: 10px;
+    
+  }
+  .UploadTA{
+    display: flex;
+    flex-direction: column;
+    background-color: #e8f1f2;
+    flex: 2;
+    margin-left: 10px;
+    height: 95%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .ResultadoTA{
+    display: flex;
+    flex-direction: column;
+    background-color: #e8f1f2;
+    flex: 5;
+    margin-right: 20px;
+    height: 95%;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    
+    
+  }
+
+  .DisplaResultTA{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 90%;
+    
+   
+    /* border: 3px #194569; */
+    /* border-style: double ; */
+  }
+  .DisplayUploadTA{
+    display: flex;
+    flex-direction: column;
+    flex: 0 78%;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+    padding-top:20px ;
+    border: 3px #194569;
+    border-style: double;
+    overflow: auto;
+  }
+
+  h4{
+    text-align: center;
+  }
+
+  
+  
