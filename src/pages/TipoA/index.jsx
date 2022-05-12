@@ -41,8 +41,16 @@ const Container = styled.div`
   transition: border .24s ease-in-out;
 `;
 
+const handleUpload = [
+  { id: 1, name: 'Phoebe' },
+  { id: 2, name: 'Rachel' },
+  { id: 3, name: 'Ross' },
+
+]
+
 export default function TipoA() {
-  const {uploadFile, setUploadFile} = useState({})
+  const [recipientID, setRecipientID] = useState(1);
+  const isRecipientOnline = useFriendStatus(recipientID);
 
   useEffect(()=>{
     document.title = `Você clicou ${uploadFile} vezes`
@@ -60,10 +68,8 @@ export default function TipoA() {
   
   } = useDropzone({ accept: { 'text/plain': [] }, maxFiles: '45' });
 
-
-  const handleUpload = file => {
-
-  }
+  
+ 
 
   const files = acceptedFiles.map(file => <li key={file.path}>{file.path}</li>);
   return (
